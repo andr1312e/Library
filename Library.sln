@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeedBack", "FeedBack\FeedBack.csproj", "{20F20A84-6872-4E5D-86A0-40E367C0344B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib", "FeedBack\Lib.csproj", "{20F20A84-6872-4E5D-86A0-40E367C0344B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibTestProject", "FeedBackTestProject\LibTestProject.csproj", "{E022AA71-DDD0-4004-805A-34945241A235}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{20F20A84-6872-4E5D-86A0-40E367C0344B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20F20A84-6872-4E5D-86A0-40E367C0344B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20F20A84-6872-4E5D-86A0-40E367C0344B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E022AA71-DDD0-4004-805A-34945241A235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E022AA71-DDD0-4004-805A-34945241A235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E022AA71-DDD0-4004-805A-34945241A235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E022AA71-DDD0-4004-805A-34945241A235}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
