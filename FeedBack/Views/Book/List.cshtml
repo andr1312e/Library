@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Book>
+@foreach (var p in Model) 
+{
+    <div>@p.Name</div>
+    <div>@p.Author</div>
+    @p.Dectription
+    @foreach (var n in p.Genre) 
+    { 
+        <div>@n</div>; 
+    }
+    <h4>Колличество: @p.NumberOfBooks.ToString()</h4>
+}

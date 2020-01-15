@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace Lib.Models
 {
-    interface IQuestionsSetter
+    public interface IBookSetter
     {
-        IQueryable<Book> Questions { get; }
+        IQueryable<Book> Books { get; }
     }
 }

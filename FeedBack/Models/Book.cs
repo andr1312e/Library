@@ -9,6 +9,7 @@ namespace Lib.Models
     {
         public int ProudctId { get; set; }
         public string Name { get; set; }
+        public string Author { get; set; }
         public int NumberOfBooks { get; set; }
         public string Dectription { get; set; }
         public string AbsolutePathToImage { get; set; }
